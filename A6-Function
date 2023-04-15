@@ -52,12 +52,103 @@
 
 // P4
 
-function factorial(n1){
-    let out=1;
-    for(let i=1;i<=n1;i++){
-        let num=i*out;
-        console.log(num);
-    }
+// function factorial(n1){
     
-}
-factorial(2);
+//     let out=1;
+//     for(let i=1;i<=n1;i++){
+//          out=out*i;
+       
+        
+//     }
+//     return out;
+// }
+// console.log('factorial is '+ factorial(10));
+
+// P5
+
+
+// function factorial(n1){
+    
+//     let out=1;
+//     for(let i=1;i<=n1;i++){
+//          out=out*i;
+       
+          
+//     }
+//     return out;
+// }
+
+// function printFactorial(value){
+//     for(let i=1;i<value;i++){
+// let fact=factorial(i);
+// console.log('Factorial of',i,'is',fact);
+// }}
+// printFactorial(10);
+
+// P6
+
+// function isTotal(n){
+//     let sum=0;
+// for(let i=1; i<=n;i++){
+//     sum=sum+i;
+// }
+// return sum;
+// }
+// console.log(isTotal(20));
+
+// P7
+
+// function newStr(str,char){
+// let str1='';
+//     let len=str.length;
+//     for(let i=0;i<len;i++){
+//         if(str[i]==char){
+
+//         }
+//         else{
+//             str1=str1+str[i];
+//         }
+
+//     }
+//     return str1;
+// }
+// console.log(newStr('abcd','3'));
+
+// P8
+
+// function rightAngleTriangle(n1,n2,n3){
+//     let hypoT;
+//     let base;
+//     let Pq;
+//     if(n1>n2&&n1>n3){
+//         hypoT=n1;
+//         base=n2;
+//         Pq=n3;
+//     }
+//     else if(n2>n1&& n2>n3){
+//         base=n1;
+//         hypoT=n2;
+//         Pq=n3;
+//     }
+//     else{
+//         Pq=n1;
+//         base=n2;
+//         hypoT=n3;
+//     }
+
+//     htSqure=hypoT*hypoT;
+//     console.log(htSqure);
+//     bsSqure=base*base;
+//     console.log(bsSqure);
+//     pqSquare=Pq*Pq;
+//     console.log(pqSquare);
+//     if(htSqure==bsSqure+pqSquare){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// console.log(rightAngleTriangle(10,14,16))
+
+// ---------------------COntinue the other question when have time---- for now moving to next one-----
