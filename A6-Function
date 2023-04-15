@@ -1,1 +1,63 @@
-let function  
+// P1
+// function largerNumber(num1,num2,num3){
+//     if(num1>num2&&num1>num3){
+//         console.log('Larger number is  ',num1);
+//     }
+//     else if(num2>num1 &&num2>num3){
+//         console.log('Larger number is ',num2);
+//     }
+//     else{
+//         console.log('Larger number is ',num3);
+//     }
+// }
+
+// largerNumber(10,15,27);
+
+// P2
+// 'Good' 'o' 'u'
+
+// function replace(str,char1,char2){
+//     let len=str.length;
+//     let newStr='';
+   
+//     for(let i=0;i<len;i++){
+//     if(str[i]==char1){
+//         newStr=newStr+char2;
+       
+//     }
+//     else{
+//         newStr=newStr+str[i];
+       
+//     }
+// }
+// console.log(newStr);
+// }
+// replace('Good','o','u');
+
+// P3
+// function isSquare(num){
+//     let sq;
+// for(let i=1;i<=num;i++){
+//     console.log('checking for '+i)
+//      sq=i*i;
+    
+//     if(sq==num){
+       
+//        return true;
+//     }
+// }
+// return false;
+// }
+// console.log( isSquare(4));
+
+// P4
+
+function factorial(n1){
+    let out=1;
+    for(let i=1;i<=n1;i++){
+        let num=i*out;
+        console.log(num);
+    }
+    
+}
+factorial(2);
